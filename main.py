@@ -398,7 +398,7 @@ async def account_login(bot: Client, m: Message):
                .replace("www.youtube-nocookie.com/embed", "youtu.be")\
                .replace("?modestbranding=1", "")\
                .replace("/view?usp=sharing","")\
-               .replace("youtube.com/embed/", "youtube.com/watch?v=")
+               .replace("www.youtube.com/embed/", "youtu.be")
 
             url = "https://" + V
 
