@@ -33,8 +33,12 @@ bot = Client(
     "bot",
     api_id=API_ID,
     api_hash=API_HASH,
-    bot_token=BOT_TOKEN,
-    auth_USER=ADMINS)
+    bot_token=BOT_TOKEN)
+#7841292079,7841292978
+auth_users = [7841292070]
+#romeo  -1923922961 
+
+owner_id = 7841292070
 
 
 # Extras 
